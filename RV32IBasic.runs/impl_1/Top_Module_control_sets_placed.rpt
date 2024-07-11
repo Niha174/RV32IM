@@ -1,0 +1,339 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Jun 24 19:37:58 2024
+| Host         : LAPTOP-JVEJP120 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_Module_control_sets_placed.rpt
+| Design       : Top_Module
+| Device       : xc7z020
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   275 |
+| Unused register locations in slices containing registers |     6 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|    16+ |          275 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              64 |            8 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             442 |          103 |
+| Yes          | No                    | No                     |           16384 |         1979 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |            1024 |          201 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+-------------------------------+------------------+------------------+----------------+
+|  Clock Signal  |         Enable Signal         | Set/Reset Signal | Slice Load Count | Bel Load Count |
++----------------+-------------------------------+------------------+------------------+----------------+
+|  clk_IBUF_BUFG |                               |                  |                8 |             64 |
+| ~clk_IBUF_BUFG | IM/RData_reg[31][0]           | reset_IBUF       |               18 |             64 |
+|  clk_IBUF_BUFG | IM/E[0]                       |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/R_file_reg[1][31][0]       | reset_IBUF       |               16 |             64 |
+|  clk_IBUF_BUFG | IM/R_file_reg[2][31][0]       | reset_IBUF       |               10 |             64 |
+|  clk_IBUF_BUFG | IM/R_file_reg[31][31][0]      | reset_IBUF       |               15 |             64 |
+|  clk_IBUF_BUFG | IM/R_file_reg[3][31][0]       | reset_IBUF       |               10 |             64 |
+|  clk_IBUF_BUFG | IM/R_file_reg[4][31][0]       | reset_IBUF       |               15 |             64 |
+|  clk_IBUF_BUFG | IM/R_file_reg[6][31][0]       | reset_IBUF       |               16 |             64 |
+|  clk_IBUF_BUFG | IM/R_file_reg[7][31][0]       | reset_IBUF       |               11 |             64 |
+|  clk_IBUF_BUFG | IM/R_file_reg[24][31][0]      | reset_IBUF       |                9 |             64 |
+|  clk_IBUF_BUFG | IM/R_file_reg[25][31][0]      | reset_IBUF       |               12 |             64 |
+|  clk_IBUF_BUFG | IM/R_file_reg[29][31][0]      | reset_IBUF       |               14 |             64 |
+|  clk_IBUF_BUFG | IM/R_file_reg[30][0][0]       | reset_IBUF       |               10 |             64 |
+|  clk_IBUF_BUFG | IM/R_file_reg[5][31][0]       | reset_IBUF       |               12 |             64 |
+|  clk_IBUF_BUFG | IM/R_file_reg[26][31][0]      | reset_IBUF       |               11 |             64 |
+|  clk_IBUF_BUFG | IM/R_file_reg[27][31][0]      | reset_IBUF       |               11 |             64 |
+|  clk_IBUF_BUFG | IM/R_file_reg[28][31][0]      | reset_IBUF       |               11 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[100][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[101][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[10][31][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[110][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[111][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[117][0][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[108][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[116][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[103][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[118][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[121][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[122][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[123][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[106][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[113][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[119][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[109][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[11][31][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[120][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[102][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[105][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[124][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[125][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[126][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[114][31]_0[0] |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[127][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[128][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[112][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[104][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[0][31][0]     |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[107][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[115][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[12][31][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[157][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[136][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[143][31][0]   |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[165][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[170][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[139][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[171][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[149][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[133][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[160][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[145][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[137][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[131][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[142][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[130][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[146][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[14][31][0]    |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[151][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[153][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[141][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[158][31][0]   |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[132][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[159][0][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[15][31][0]    |                  |                5 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[164][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[148][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[150][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[169][31][0]   |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[167][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[172][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[138][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[144][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[147][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[152][31][0]   |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[163][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[154][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[129][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[156][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[175][0]_0[0]  |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[166][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[16][0][0]     |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[176][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[134][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[13][31][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[140][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[173][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[174][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[177][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[178][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[179][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[17][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[180][31][0]   |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[181][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[182][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[162][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[183][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[155][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[168][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[184][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[185][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[135][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[186][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[161][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[204][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[240][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[194][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[22][31][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[23][31][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[191][0][0]    |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[203][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[190][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[206][0][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[209][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[201][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[230][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[241][31][0]   |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[242][31][0]   |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[207][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[188][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[198][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[216][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[187][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[218][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[220][31][0]   |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[196][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[221][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[227][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[232][31][0]   |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[239][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[208][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[243][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[210][31][0]   |                  |               13 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[21][31][0]    |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[219][0][0]    |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[212][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[205][0][0]    |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[225][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[18][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[226][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[199][0][0]    |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[200][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[211][31][0]   |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[1][31][0]     |                  |                5 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[222][31][0]   |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[228][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[233][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[215][31][0]   |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[189][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[214][31][0]   |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[224][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[195][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[193][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[20][31][0]    |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[213][31][0]   |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[229][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[234][31][0]   |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[235][0][0]    |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[217][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[236][0][0]    |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[223][0]_0[0]  |                  |               11 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[231][0][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[237][0][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[197][31][0]   |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[238][0][0]    |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[202][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[19][31][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[192][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[39][31][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[249][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[254][31][0]   |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[250][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[25][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[33][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[3][31][0]     |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[40][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[52][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[55][31][0]    |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[58][31][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[59][31][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[5][31][0]     |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[60][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[253][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[24][31][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[32][31][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[51][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[61][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[62][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[63][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[65][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[66][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[67][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[38][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[64][0][0]     |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[68][31][0]    |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[44][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[246][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[252][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[31][31][0]    |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[47][31][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[35][31][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[245][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[248][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[27][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[28][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[247][31][0]   |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[251][31][0]   |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[30][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[34][31][0]    |                  |                5 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[36][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[37][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[43][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[46][31][0]    |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[48][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[244][31][0]   |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[26][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[42][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[45][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[29][31][0]    |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[49][31][0]    |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[50][31][0]    |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[4][31][0]     |                  |                5 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[53][31][0]    |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[41][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[54][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[57][31][0]    |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[2][31][0]     |                  |                5 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[56][31][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[70][0][0]     |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[99][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[85][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[81][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[98][31][0]    |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[9][31][0]     |                  |                5 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[73][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[74][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[72][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[82][31][0]    |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[8][31][0]     |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[76][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[79][31][0]    |                  |               11 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[91][31][0]    |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[7][31][0]     |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[93][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[6][31][0]     |                  |                5 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[97][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[96][31][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[78][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[77][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[84][31][0]    |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[94][31][0]    |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[89][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[71][31][0]    |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[80][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[90][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[69][31][0]    |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[88][31][0]    |                  |                7 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[87][31][0]    |                  |                9 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[86][31][0]    |                  |               10 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[95][31][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[75][31][0]    |                  |                6 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[92][31][0]    |                  |                8 |             64 |
+|  clk_IBUF_BUFG | IM/data_mem_reg[83][31][0]    |                  |                8 |             64 |
+| ~clk_IBUF_BUFG |                               | reset_IBUF       |               51 |            128 |
+|  clk_IBUF_BUFG |                               | reset_IBUF       |               52 |            314 |
++----------------+-------------------------------+------------------+------------------+----------------+
+
+
