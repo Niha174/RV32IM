@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Jul  5 12:33:25 2024
+# Process ID: 12024
+# Current directory: D:/RV32IBasic/RV32IBasic
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19316 D:\RV32IBasic\RV32IBasic\RV32IBasic.xpr
+# Log file: D:/RV32IBasic/RV32IBasic/vivado.log
+# Journal file: D:/RV32IBasic/RV32IBasic\vivado.jou
+# Running On: DeepthiChowdary, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 16835 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/RV32IBasic/RV32IBasic/RV32IBasic.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
