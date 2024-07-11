@@ -1,0 +1,22 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/RV32IBasic/RV32IBasic/RV32IBasic.sim/sim_1/behav/xsim/glbl.v,1719294748,verilog,,,,glbl,,uvm,,,,,,
+D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sim_1/imports/new/TOP_TB.v,1719294750,verilog,,,,TOP_TB,,uvm,../../../../RV32IBasic.srcs/sources_1/new,,,,,
+D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/ALU_CTRL_UNIT.v,1719294750,systemVerilog,D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/ALU_Unit.v;D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Branch_Unit.v;D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Data_Memory.v;D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Reg_file.v,D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/ALU_Unit.v,D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Parameters.vh,$unit_ALU_CTRL_UNIT_v_1235948235;ALU_CTRL_UNIT,,uvm,../../../../RV32IBasic.srcs/sources_1/new,,,,,
+D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/ALU_Unit.v,1719294750,systemVerilog,,D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Branch_Unit.v,D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Parameters.vh,ALU_Unit,,uvm,../../../../RV32IBasic.srcs/sources_1/new,,,,,
+D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Add_J.v,1719294750,verilog,,D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Add_PC.v,,Add_J,,uvm,../../../../RV32IBasic.srcs/sources_1/new,,,,,
+D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Add_PC.v,1719294750,verilog,,D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Control_Unit.v,,Add_PC,,uvm,../../../../RV32IBasic.srcs/sources_1/new,,,,,
+D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Branch_Unit.v,1719294750,systemVerilog,,D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Data_Memory.v,,Branch_Unit,,uvm,../../../../RV32IBasic.srcs/sources_1/new,,,,,
+D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Control_Unit.v,1719294750,verilog,,D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Immediate.v,,Control_Unit,,uvm,../../../../RV32IBasic.srcs/sources_1/new,,,,,
+D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Data_Memory.v,1719294750,systemVerilog,,D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Reg_file.v,,Data_Memory,,uvm,../../../../RV32IBasic.srcs/sources_1/new,,,,,
+D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Immediate.v,1719294750,verilog,,D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Mux_PC.v,,Immediate,,uvm,../../../../RV32IBasic.srcs/sources_1/new,,,,,
+D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Mux_PC.v,1719294750,verilog,,D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Pc_mux.v,,Mux_PC,,uvm,../../../../RV32IBasic.srcs/sources_1/new,,,,,
+D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Parameters.vh,1719294750,verilog,,,,,,,,,,,,
+D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Pc_mux.v,1719294750,verilog,,D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Reg_Mux_ALU.v,,Pc_mux,,uvm,../../../../RV32IBasic.srcs/sources_1/new,,,,,
+D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Reg_Mux_ALU.v,1719294750,verilog,,D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Top_Module.v,,Reg_Mux_ALU,,uvm,../../../../RV32IBasic.srcs/sources_1/new,,,,,
+D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Reg_file.v,1719294750,systemVerilog,,,,Reg_file,,uvm,../../../../RV32IBasic.srcs/sources_1/new,,,,,
+D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Top_Module.v,1719294750,verilog,,D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Write_Back_Mux.v,,Top_Module,,uvm,../../../../RV32IBasic.srcs/sources_1/new,,,,,
+D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/Write_Back_Mux.v,1719294750,verilog,,D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/inst_memory.v,,Write_Back_Mux,,uvm,../../../../RV32IBasic.srcs/sources_1/new,,,,,
+D:/RV32IBasic/RV32IBasic/RV32IBasic.srcs/sources_1/new/inst_memory.v,1719294750,verilog,,,,inst_memory,,uvm,../../../../RV32IBasic.srcs/sources_1/new,,,,,
