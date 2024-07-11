@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TOP_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TOP_TB" />
+            <top_module name="\$unit_ALU_CTRL_UNIT_v " />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="639583333fs"></ZoomStartTime>
+      <ZoomEndTime time="712083334fs"></ZoomEndTime>
+      <Cursor1Time time="672283000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="67" />
+   <wvobject type="divider" fp_name="divider233">
+      <obj_property name="label">Branch</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/BU/Instruction" type="array">
+      <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/BU/Branch_En" type="logic">
+      <obj_property name="ElementShortName">Branch_En</obj_property>
+      <obj_property name="ObjectShortName">Branch_En</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/BU/ip_read_data1" type="array">
+      <obj_property name="ElementShortName">ip_read_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_read_data1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/BU/ip_read_data2" type="array">
+      <obj_property name="ElementShortName">ip_read_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_read_data2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/BU/op_Branch_Unit" type="logic">
+      <obj_property name="ElementShortName">op_Branch_Unit</obj_property>
+      <obj_property name="ObjectShortName">op_Branch_Unit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/BU/funct3" type="array">
+      <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider8">
+      <obj_property name="label">Register</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/Reg/Data_in" type="array">
+      <obj_property name="ElementShortName">Data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_in[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/Reg/Read_Reg1" type="array">
+      <obj_property name="ElementShortName">Read_Reg1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_Reg1[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/Reg/Read_Reg2" type="array">
+      <obj_property name="ElementShortName">Read_Reg2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_Reg2[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/Reg/Write_Reg" type="array">
+      <obj_property name="ElementShortName">Write_Reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Write_Reg[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/Reg/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/Reg/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/Reg/Data_out1" type="array">
+      <obj_property name="ElementShortName">Data_out1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_out1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/Reg/Data_out2" type="array">
+      <obj_property name="ElementShortName">Data_out2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_out2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/Reg/R_file" type="array">
+      <obj_property name="ElementShortName">R_file[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">R_file[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[31]" type="array">
+         <obj_property name="ElementShortName">[31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[30]" type="array">
+         <obj_property name="ElementShortName">[30][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[29]" type="array">
+         <obj_property name="ElementShortName">[29][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[28]" type="array">
+         <obj_property name="ElementShortName">[28][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[27]" type="array">
+         <obj_property name="ElementShortName">[27][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[26]" type="array">
+         <obj_property name="ElementShortName">[26][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[25]" type="array">
+         <obj_property name="ElementShortName">[25][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[24]" type="array">
+         <obj_property name="ElementShortName">[24][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[23]" type="array">
+         <obj_property name="ElementShortName">[23][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[22]" type="array">
+         <obj_property name="ElementShortName">[22][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[21]" type="array">
+         <obj_property name="ElementShortName">[21][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[20]" type="array">
+         <obj_property name="ElementShortName">[20][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[19]" type="array">
+         <obj_property name="ElementShortName">[19][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[18]" type="array">
+         <obj_property name="ElementShortName">[18][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[17]" type="array">
+         <obj_property name="ElementShortName">[17][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[16]" type="array">
+         <obj_property name="ElementShortName">[16][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[15]" type="array">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[14]" type="array">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[13]" type="array">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[12]" type="array">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[11]" type="array">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[31]" type="array">
+         <obj_property name="ElementShortName">[31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[30]" type="array">
+         <obj_property name="ElementShortName">[30][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[29]" type="array">
+         <obj_property name="ElementShortName">[29][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[28]" type="array">
+         <obj_property name="ElementShortName">[28][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[27]" type="array">
+         <obj_property name="ElementShortName">[27][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[26]" type="array">
+         <obj_property name="ElementShortName">[26][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[25]" type="array">
+         <obj_property name="ElementShortName">[25][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[24]" type="array">
+         <obj_property name="ElementShortName">[24][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[23]" type="array">
+         <obj_property name="ElementShortName">[23][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[22]" type="array">
+         <obj_property name="ElementShortName">[22][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[21]" type="array">
+         <obj_property name="ElementShortName">[21][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[20]" type="array">
+         <obj_property name="ElementShortName">[20][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[19]" type="array">
+         <obj_property name="ElementShortName">[19][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[18]" type="array">
+         <obj_property name="ElementShortName">[18][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[17]" type="array">
+         <obj_property name="ElementShortName">[17][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[16]" type="array">
+         <obj_property name="ElementShortName">[16][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[15]" type="array">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[14]" type="array">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[13]" type="array">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[12]" type="array">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[11]" type="array">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_TB/DUT/Reg/R_file[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/Reg/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider20">
+      <obj_property name="label">Immediate</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/Imm/immediate" type="array">
+      <obj_property name="ElementShortName">immediate[31:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/Imm/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/Imm/funct3" type="array">
+      <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider25">
+      <obj_property name="label">ALU Control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/AC/Instruction" type="array">
+      <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/AC/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/AC/ALUCtrl" type="array">
+      <obj_property name="ElementShortName">ALUCtrl[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUCtrl[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/AC/Inst" type="logic">
+      <obj_property name="ElementShortName">Inst</obj_property>
+      <obj_property name="ObjectShortName">Inst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/AC/funct3" type="array">
+      <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider31">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/AU/Read_data1" type="array">
+      <obj_property name="ElementShortName">Read_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_data1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/AU/Mux_Data" type="array">
+      <obj_property name="ElementShortName">Mux_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Mux_Data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/AU/ALU_Control" type="array">
+      <obj_property name="ElementShortName">ALU_Control[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Control[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/AU/ALU_Result" type="array">
+      <obj_property name="ElementShortName">ALU_Result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Result[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider36">
+      <obj_property name="label">source_sel_mux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/M0/ip_Data_out2" type="array">
+      <obj_property name="ElementShortName">ip_Data_out2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_Data_out2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/M0/ip_Imm_Gen" type="array">
+      <obj_property name="ElementShortName">ip_Imm_Gen[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_Imm_Gen[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/M0/sel_ALUSrc" type="array">
+      <obj_property name="ElementShortName">sel_ALUSrc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sel_ALUSrc[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/M0/Data_out" type="array">
+      <obj_property name="ElementShortName">Data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider41">
+      <obj_property name="label">write_back_mux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/M1/ip_alu_result" type="array">
+      <obj_property name="ElementShortName">ip_alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_alu_result[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/M1/ip_Read_Data" type="array">
+      <obj_property name="ElementShortName">ip_Read_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_Read_Data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/M1/sel_MemtoReg" type="array">
+      <obj_property name="ElementShortName">sel_MemtoReg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sel_MemtoReg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/M1/op_Writeback_mux" type="array">
+      <obj_property name="ElementShortName">op_Writeback_mux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op_Writeback_mux[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider219">
+      <obj_property name="label">pc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/PC/ip_add" type="array">
+      <obj_property name="ElementShortName">ip_add[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_add[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/PC/ip_clk" type="logic">
+      <obj_property name="ElementShortName">ip_clk</obj_property>
+      <obj_property name="ObjectShortName">ip_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/PC/ip_rst" type="logic">
+      <obj_property name="ElementShortName">ip_rst</obj_property>
+      <obj_property name="ObjectShortName">ip_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/Imm/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/PC/op_add" type="array">
+      <obj_property name="ElementShortName">op_add[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op_add[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider224">
+      <obj_property name="label">mu</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/M2/ip_Add_PC" type="array">
+      <obj_property name="ElementShortName">ip_Add_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_Add_PC[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/M2/ip_Add_J" type="array">
+      <obj_property name="ElementShortName">ip_Add_J[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_Add_J[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/M2/sel_PCSrc" type="logic">
+      <obj_property name="ElementShortName">sel_PCSrc</obj_property>
+      <obj_property name="ObjectShortName">sel_PCSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/M2/op_Mux_pc" type="array">
+      <obj_property name="ElementShortName">op_Mux_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op_Mux_pc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider499">
+      <obj_property name="label">pc_mux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/pc_sel_mux/pc" type="array">
+      <obj_property name="ElementShortName">pc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/pc_sel_mux/mux_out" type="array">
+      <obj_property name="ElementShortName">mux_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/pc_sel_mux/br_en" type="logic">
+      <obj_property name="ElementShortName">br_en</obj_property>
+      <obj_property name="ObjectShortName">br_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/pc_sel_mux/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider536">
+      <obj_property name="label">imm_add</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/Add/ip_Add_PC" type="array">
+      <obj_property name="ElementShortName">ip_Add_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_Add_PC[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/Add/ip_Shift" type="array">
+      <obj_property name="ElementShortName">ip_Shift[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_Shift[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/Add/op_Add" type="array">
+      <obj_property name="ElementShortName">op_Add[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op_Add[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/M2/ip_Add_PC" type="array">
+      <obj_property name="ElementShortName">ip_Add_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_Add_PC[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/M2/ip_Add_J" type="array">
+      <obj_property name="ElementShortName">ip_Add_J[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_Add_J[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/M2/sel_PCSrc" type="logic">
+      <obj_property name="ElementShortName">sel_PCSrc</obj_property>
+      <obj_property name="ObjectShortName">sel_PCSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/DUT/M2/op_Mux_pc" type="array">
+      <obj_property name="ElementShortName">op_Mux_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op_Mux_pc[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
